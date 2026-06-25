@@ -1,0 +1,26 @@
+{
+  "name": "seekho-creative-intelligence",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build:dashboard": "bash build_dashboard.sh",
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.15",
+    "next-auth": "5.0.0-beta.20",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "recharts": "2.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.7",
+    "@types/react": "18.3.3",
+    "esbuild": "0.21.5",
+    "jsdom": "29.1.1",
+    "tailwindcss": "3.4.4",
+    "typescript": "5.4.5"
+  }
+}

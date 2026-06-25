@@ -1,0 +1,4 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "python3 -m pip install --quiet --break-system-packages -r requirements.txt && python3 refresh_data.py && bash build_dashboard.sh && next build"
+}

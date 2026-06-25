@@ -1,0 +1,10 @@
+node_modules/
+.next/
+.vercel/
+__pycache__/
+data/*.csv
+bundle_ncad.js
+output_ncad.css
+data_ncad.js
+dashboard/index.html
+.env*.local
